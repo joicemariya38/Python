@@ -1,0 +1,23 @@
+from ing import output
+
+rows = int(input("enter the number of rows:"))
+for i in range (1, rows + 1):
+    for j in range(i):
+        print("*", end=" ")
+    print ()
+for i in range (rows - 1, 0, -1):
+        for j in range (i):
+            print("*", end=" ")
+        print()
+output
+
+enter the number of rows:5
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
